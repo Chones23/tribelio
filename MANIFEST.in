@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include tribelio *.css
+recursive-include tribelio *.csv
+recursive-include tribelio *.html
+recursive-include tribelio *.ico
+recursive-include tribelio *.js
+recursive-include tribelio *.json
+recursive-include tribelio *.md
+recursive-include tribelio *.png
+recursive-include tribelio *.py
+recursive-include tribelio *.svg
+recursive-include tribelio *.txt
+recursive-exclude tribelio *.pyc
